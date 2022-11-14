@@ -1,38 +1,41 @@
-#  Next Best Dev
+# Project Title
 
+Simple overview of use/purpose.
 
- ## _document.js file
- ```jsx
-import Document, { Head, Html, Main, NextScript } from 'next/document';
+## Description
 
-class MyDocument extends Document {
-  static async getInitialProps(context) {
-    const initialProps = await Document.getInitialProps(context);
-    return { ...initialProps };
-  }
+An in-depth paragraph about your project and overview of use.
 
-  render() {
-    return (
-      <Html lang={this.props.locale}>
-        <Head>
-        </Head>
-        <body>
-          <Main />
-          <NextScript />
-        </body>
-      </Html>
-    );
-  }
-}
+## Getting Started
 
-export default MyDocument;
+### Dependencies
 
- ```
+* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+* ex. Windows 10
 
- ## next.config.js
- ```
-i18n: {
-    locales: ['en'],
-    defaultLocale: 'en',
-  },
- ```
+### Installing
+
+* How/where to download your program
+* Any modifications needed to be made to files/folders
+
+### Executing program
+
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
+```
+
+## Help
+
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
+
+## Authors
+
+Contributors names and contact info
+
+ex. Dominique Pizzie  
+ex. [@DomPizzie](https://twitter.com/dompizzie)
