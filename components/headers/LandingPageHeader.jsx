@@ -11,7 +11,7 @@ function LandingPageHeader(props) {
             <h3 className='font-bold text-4xl text-sky-900 text-center
                 md:text-2xl lg:text-2xl xl:text-2xl
             '>
-                Finding the perfect next best dev for your buisness
+                Finding the perfect next best dev for your business
             </h3>
 
         </header>
