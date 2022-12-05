@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Head from 'next/head'
 import { LandingPageHeader } from './../components/headers'
 
@@ -9,6 +10,17 @@ export default function Home() {
         <title>Assessment 1</title>
       </Head>
       <LandingPageHeader title="My Title" tagline="My Tagline" />
+=======
+import {LandingPageHeader} from "../components/headers"
+
+export default function Home() {
+ 
+  return (
+    <>
+      <main>
+        <LandingPageHeader />
+      </main>  
+>>>>>>> master
     </>
   );
 }
