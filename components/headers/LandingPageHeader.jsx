@@ -9,10 +9,13 @@ function LandingPageHeader() {
         md:flex-row  gap-8
         '>
             <figcaption >
+            <h1></h1>
             <h1 className='font-bold text-4xl text-teal-500 text-center
                 md:text-3xl lg:text-5xl xl:text-6xl
             '>
-                Next Dev Finding Your Perfect Match
+               You Have Opportunites
+               <br/>
+               We Have Developers
             </h1>
             </figcaption>
             

@@ -4,9 +4,6 @@ function NavBarLinks() {
     return ( 
         <ul className=" hidden  md:flex gap-4 text-indigo-800 font-bold ">
         <li>
-          <Link href="/">HOME</Link>
-        </li>
-        <li>
           <Link href="/frontend">FRONT END</Link>
         </li>
         <li>
