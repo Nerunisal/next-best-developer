@@ -13,7 +13,8 @@ function FullStackDeveloperPage({fullstack}) {
                     avatar={dev.avatar}
                     jobTitle={dev.job_title}
                     experience={dev.experience}
-                    availability={dev.availability} 
+                    availability={dev.availability}
+                    uid={dev.uid} 
                   />
               )
             })

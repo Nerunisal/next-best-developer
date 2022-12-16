@@ -1,4 +1,7 @@
-function DeveloperCard({fullName,avatar,jobTitle,experience,availability}){
+import Image from "next/image"
+import Link from "next/link"
+
+function DeveloperCard({fullName,avatar,jobTitle,experience,availability,uid}){
     const variants = {
         available:"bg-teal-200 rounded-md px-3 py-1 text-sm text-teal-900",
         unavailable:"bg-rose-200 rounded-md px-3 py-1 text-sm text-rose-900"
@@ -6,6 +9,7 @@ function DeveloperCard({fullName,avatar,jobTitle,experience,availability}){
     }
         return(
             <aside className="w-full m-4 sm:m-0 sm:w-[calc(50%_-_0.5rem)] lg:w-[calc(33%_-_1rem)] py-10 border border-indigo-500/50 rounded-md shadow-md ">
+            <Link href={`/developer/${uid}`}>
                 <header className="flex flex-col items-center mb-4">
                     <img src={avatar}
                 width={130}
@@ -26,7 +30,7 @@ function DeveloperCard({fullName,avatar,jobTitle,experience,availability}){
                     <dd className={` ${availability? variants.available : variants.unavailable}`}>
                     {availability? "not available": "available"}</dd>
                 </dl>
-
+                </Link>
             </aside>
         );
 }
